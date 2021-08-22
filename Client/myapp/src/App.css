@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+input[type=text],select{
+  transition: 0.5s;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=text]:focus { 
+  border: 3px solid grey;
+}
+input[type=button]{
+  border: 1px solid darkslategray;
+  padding: 3px 6px;
+  font-size: 16px;
+  margin: 3px 2px;
+  cursor: pointer;
+}
+input[type=button]:active{
+  box-shadow: 0 5px slategray;
+  transform: translateY(4px);
+}

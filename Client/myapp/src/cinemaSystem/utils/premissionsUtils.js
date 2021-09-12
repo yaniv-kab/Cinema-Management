@@ -1,5 +1,5 @@
 import ApiDAL from "../DALs/ApiDAL";
-const PermissionsURL = 'http://localhost:8001/api/premissions'
+const PermissionsURL = 'https://mern-cinema-cinemawebserver.herokuapp.com/api/premissions'
 const getAllPremissions = () => {
     return ApiDAL.getAllData(PermissionsURL)
 }
